@@ -1,4 +1,4 @@
-# Hi there 👋 我是 うさぎ兔 🐰
+# Hi ~ 我是 うさぎ兔 🐰
 
 「用工程思維設計互動，將複雜系統轉化為流暢的數位體驗。」
 
@@ -60,7 +60,7 @@
 
 「從微小的 Step 開始，探索山稜的光影。為你精準檢索每一條森林步道，重新連結自然與自己。」
 
-**前端技術**：`Vite` `SCSS` `Bootstrap5` `React` `React Router` `Lottie` `Swiper` `Axios` `JSON Server`
+`Vite` `SCSS` `Bootstrap5` `React` `React Router` `Lottie` `Swiper` `Axios` `JSON Server`
 
 [GitHub Repository](https://github.com/MalricHsu/yestep) │ [Demo](https://malrichsu.github.io/yestep/)
 
@@ -68,6 +68,6 @@
 
 「專為旅遊愛好者打造的線上購票平台，從城市街角到自然秘境，提供精選的旅遊套票與體驗行程。」
 
-**前端技術**：`Vite` `SCSS` `Bootstrap5` `React` `React Router` `React Hook Form` `Redux Toolkit` `Lottie` `Swiper` `Axios`
+`Vite` `SCSS` `Bootstrap5` `React` `React Router` `React Hook Form` `Redux Toolkit` `Lottie` `Swiper` `Axios`
 
 [GitHub Repository](https://github.com/rabbitoyo/travnote) │ [Demo](https://rabbitoyo.github.io/travnote/)

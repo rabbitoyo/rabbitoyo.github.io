@@ -1,0 +1,21 @@
+/* ─────────────────────────────────────────────
+   Design Tokens — CSS Custom Properties
+   ───────────────────────────────────────────── */
+
+:root {
+  /* Primary: cyan */
+  --color-primary: #06b6d4;
+  /* Secondary: green */
+  --color-secondary: #4ade80;
+  /* Accent: yellow mark */
+  --color-accent: #fcd34d;
+
+  /* Surface */
+  --color-bg: #020617;
+  --color-card: #0f172a;
+  --color-border: #1e293b;
+
+  /* Typography */
+  --font-sans: 'Noto Sans TC', system-ui, sans-serif;
+  --font-mono: 'Fira Code', 'Share Tech Mono', monospace;
+}

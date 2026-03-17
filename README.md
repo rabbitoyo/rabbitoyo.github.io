@@ -1,4 +1,4 @@
-# Hi ~ 我是 うさぎ兔 🐰
+# Hi ~ 我是 うさぎ兔
 
 「用工程思維設計互動，將複雜系統轉化為流暢的數位體驗。」
 
@@ -45,7 +45,6 @@
 ![JSON Server](https://img.shields.io/badge/-JSON%20Server-333333?style=flat-square&logo=json&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-9135FF?style=flat-square&logo=vite&logoColor=white)
 ![Git/GitHub/GitLab](https://img.shields.io/badge/-Git/GitHub/GitLab-F05032?style=flat-square&logo=git&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 
 - **JavaScript / TypeScript**：熟悉 ES6+ 語法與 TypeScript 型別系統，能開發具可讀性與可維護性的前端應用。
 - **React / Vue 框架開發**：具備 SPA 架構開發經驗，能透過元件化思維建立可重用的 UI 模組。
@@ -56,7 +55,7 @@
 
 ## 📝 精選專案
 
-### [React 步道檢索 - YeStep │ 每一步，找回生活的呼吸](https://malrichsu.github.io/yestep/)
+### React 步道檢索 - YeStep 每一步，找回生活的呼吸
 
 「從微小的 Step 開始，探索山稜的光影。為你精準檢索每一條森林步道，重新連結自然與自己。」
 
@@ -64,7 +63,7 @@
 
 [GitHub Repository](https://github.com/MalricHsu/yestep) │ [Demo](https://malrichsu.github.io/yestep/)
 
-### [React 旅遊電商 - TravNote 旅途](https://rabbitoyo.github.io/travnote/)
+### React 旅遊電商 - TravNote 旅途
 
 「專為旅遊愛好者打造的線上購票平台，從城市街角到自然秘境，提供精選的旅遊套票與體驗行程。」
 

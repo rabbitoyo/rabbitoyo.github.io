@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      maxWidth: {
+        '8xl': '90rem',
+        '9xl': '100rem',
+      },
       colors: {
         primary: '#06b6d4',
         secondary: '#4ade80',
@@ -16,11 +20,11 @@ export default {
         sans: ['"Noto Sans TC"', 'system-ui', 'sans-serif'],
       },
       animation: {
-        'typing': 'typing 3.5s steps(40) 1s forwards, blink 0.75s step-end infinite',
-        'float': 'float 6s ease-in-out infinite',
-        'glow': 'glow 2s ease-in-out infinite alternate',
-        'fadeInUp': 'fadeInUp 0.6s ease forwards',
-        'scan': 'scan 4s linear infinite',
+        typing: 'typing 3.5s steps(40) 1s forwards, blink 0.75s step-end infinite',
+        float: 'float 6s ease-in-out infinite',
+        glow: 'glow 2s ease-in-out infinite alternate',
+        fadeInUp: 'fadeInUp 0.6s ease forwards',
+        scan: 'scan 4s linear infinite',
         'pulse-slow': 'pulse 3s ease-in-out infinite',
       },
       keyframes: {
@@ -44,4 +48,4 @@ export default {
     },
   },
   plugins: [],
-}
+};

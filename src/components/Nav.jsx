@@ -21,10 +21,12 @@ export default function Nav({ activeSection }) {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 border-b ${
-        scrolled ? 'bg-dark/80 backdrop-blur-md border-dark-border' : 'bg-transparent border-transparent'
+        scrolled
+          ? 'bg-dark/80 backdrop-blur-md border-dark-border'
+          : 'bg-dark/60 backdrop-blur-md border-dark-border/40'
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-8xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="font-mono text-lg font-semibold">
           <span className="text-primary">&lt;</span>
           <span className="text-white">うさぎ兔</span>
@@ -37,7 +39,7 @@ export default function Nav({ activeSection }) {
               key={item.id}
               href={`#${item.id}`}
               className={`flex items-center gap-2 px-4 py-2 rounded-md font-mono text-sm transition-all duration-200 ${
-                activeSection === item.id ? 'text-primary' : 'text-slate-400 hover:text-white'
+                activeSection === item.id ? 'text-primary' : 'text-slate-300 hover:text-white'
               }`}
             >
               <i className={`fas ${item.icon} text-xs`} />

@@ -115,7 +115,7 @@ export default function Hero() {
     <section
       id="home"
       ref={sectionRef}
-      className="relative min-h-screen flex items-center overflow-hidden bg-dark"
+      className="relative min-h-dvh flex items-center overflow-hidden bg-dark"
     >
       {/* Video + Badges */}
       <div ref={videoBlockRef} className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden">
@@ -131,7 +131,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-8xl mx-auto px-6 w-full min-h-screen flex flex-col justify-end lg:justify-center pt-28 md:pt-20 pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full min-h-screen flex flex-col justify-end lg:justify-center pt-28 md:pt-20 pb-10">
         <div className="flex flex-col md:flex-row">
           <div ref={contentRef} className="flex-1 space-y-4 md:space-y-6">
             <div className="font-mono text-primary text-sm">Hello, I'm</div>
@@ -153,7 +153,7 @@ export default function Hero() {
             </div>
 
             <p className="hidden lg:block text-slate-400 text-base leading-relaxed max-w-lg">
-              「用工程思維設計互動，將複雜系統轉化為流暢的數位體驗。」 <br />
+              「用工程思維，打造流暢互動體驗。」 <br />
               專精 React、Vue 框架與 AI Agent 協作研發。
             </p>
 
@@ -199,12 +199,12 @@ export default function Hero() {
             {badges.map((badge, idx) => (
               <div
                 key={badge.title}
-                className={`absolute glass border border-dark-border rounded-lg px-3 py-2 flex items-center gap-2 text-xs font-mono hover:border-primary/50 transition-colors ${
+                className={`absolute glass border border-dark-border rounded-lg px-3 py-2 flex items-center gap-2 text-xs font-mono transition-colors ${
                   idx === 0
-                    ? 'top-20 right-24'
+                    ? 'top-0 right-20'
                     : idx === 1
-                      ? 'bottom-10 right-6'
-                      : 'top-1/2 right-0 -translate-y-1/2'
+                      ? 'bottom-20 right-6'
+                      : 'top-[30%] right-0 -translate-y-1/2'
                 }`}
                 style={{
                   animation: 'float 6s ease-in-out infinite',

@@ -26,7 +26,7 @@ export default function Nav({ activeSection }) {
           : 'bg-dark/60 backdrop-blur-md border-dark-border/40'
       }`}
     >
-      <nav className="max-w-8xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="font-mono text-lg font-semibold">
           <span className="text-primary">&lt;</span>
           <span className="text-white">うさぎ兔</span>

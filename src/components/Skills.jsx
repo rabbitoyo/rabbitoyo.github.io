@@ -216,7 +216,7 @@ export default function Skills() {
 
   return (
     <section id="skills" ref={sectionRef} className="relative py-24 bg-dark overflow-hidden">
-      <div className="relative z-10 max-w-6xl mx-auto px-6">
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="flex items-center gap-4 mb-16">
           <h2 className="font-mono text-2xl md:text-3xl font-bold">
             <span className="text-primary">&lt;</span>

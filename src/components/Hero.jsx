@@ -115,7 +115,7 @@ export default function Hero() {
     <section
       id="home"
       ref={sectionRef}
-      className="relative min-h-dvh flex items-center overflow-hidden bg-dark"
+      className="relative min-h-svh flex items-center overflow-hidden bg-dark"
     >
       {/* Video + Badges */}
       <div ref={videoBlockRef} className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden">
@@ -131,7 +131,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full min-h-screen flex flex-col justify-end lg:justify-center pt-28 md:pt-20 pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full min-h-svh flex flex-col justify-end lg:justify-center pt-28 md:pt-20 pb-[max(2.5rem,env(safe-area-inset-bottom))]">
         <div className="flex flex-col md:flex-row">
           <div ref={contentRef} className="flex-1 space-y-4 md:space-y-6">
             <div className="font-mono text-primary text-sm">Hello, I'm</div>

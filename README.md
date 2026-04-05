@@ -39,19 +39,23 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/-React-087ea4?style=flat-square&logo=react&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-42b883?style=flat-square&logo=vue.js&logoColor=white)
-![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
+![Vue](https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=vue.js&logoColor=white)
 ![Axios](https://img.shields.io/badge/-Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
 ![JSON Server](https://img.shields.io/badge/-JSON%20Server-333333?style=flat-square&logo=json&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-9135FF?style=flat-square&logo=vite&logoColor=white)
+![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
 ![Git/GitHub/GitLab](https://img.shields.io/badge/-Git/GitHub/GitLab-F05032?style=flat-square&logo=git&logoColor=white)
 
 - **JavaScript / TypeScript**：熟悉 ES6+ 語法與 TypeScript 型別系統，能開發具可讀性與可維護性的前端應用。
 - **React / Vue 框架開發**：具備 SPA 架構開發經驗，能透過元件化思維建立可重用的 UI 模組。
-- **程式碼品質**：使用 ESLint 建立一致的程式碼風格與團隊協作規範。
+- **React Router / Vue Router**：熟悉前端路由管理，能規劃 SPA 多頁結構、動態路由與導航守衛。
 - **AJAX / JSON / RESTful API**：可使用 Axios 串接 RESTful API，完成資料請求、錯誤處理與狀態回饋。
+- **非同步處理（async / await）**：能以 async/await 處理非同步流程，搭配錯誤捕捉機制確保應用穩定性。
 - **Mock API 開發流程**：具備使用 JSON Server 建立與維護前後端分離開發流程經驗。
+- **Vite Build Tool**：使用 Vite 建立現代化前端開發環境，具備快速 HMR 與打包優化配置經驗。
+- **程式碼品質**：使用 ESLint 建立一致的程式碼風格與團隊協作規範。
 - **Git / GitHub**：熟悉 Git Flow、分支管理與 Pull Request 協作流程，具備團隊開發經驗。
+- **AI 協作開發**：善用 Claude Code、Gemini、ChatGPT 進行問題拆解與延伸開發，搭配 GitHub Copilot 智能補全提升開發效率，並能透過 Agent 進行 Code Review。
 
 ## 📝 精選專案
 
@@ -61,7 +65,7 @@
 
 `Vite` `SCSS` `Bootstrap5` `React` `React Router` `Lottie` `Swiper` `Axios` `JSON Server`
 
-[GitHub Repository](https://github.com/MalricHsu/yestep) │ [Demo](https://malrichsu.github.io/yestep/)
+[GitHub Repository](https://github.com/MalricHsu/yestep) │ [Demo](https://yestep.onrender.com/#/)
 
 ### React 旅遊電商 - TravNote 旅途
 
